@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://b077ywe6ugvdr"]
+
+[ext_resource type="FontFile" uid="uid://c3jhcat4uyrwa" path="res://assets/pixel_font.ttf" id="1_o8gux"]
+
+[node name="score" type="CanvasLayer"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+z_index = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -111.0
+offset_top = 12.0
+offset_right = 114.0
+offset_bottom = 37.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("1_o8gux")
+theme_override_font_sizes/font_size = 25
+text = "SCORE: 0
+"
+horizontal_alignment = 1
